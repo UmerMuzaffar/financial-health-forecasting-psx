@@ -273,18 +273,36 @@ A composite 0–100 score built from **14 weighted ratios** with R² > 0.60, cov
 
 ## Visualizations
 
-The notebook produces 8 publication-quality charts:
+### Health Score Leaderboard — Top 20 Companies
+![Health Score Leaderboard](outputs/viz1_health_leaderboard.png)
 
-| Chart | Description |
-|---|---|
-| `viz1_health_leaderboard.png` | Top 20 + bottom 5 companies by health score |
-| `viz2_sector_comparison.png` | Box + jitter plot of health scores by sector |
-| `viz3_model_r2_heatmap.png` | R² heatmap: 7 models × 30 ratios |
-| `viz4_model_comparison.png` | Model win count + average R² (dual panel) |
-| `viz5_cv_folds.png` | Time-series CV fold-by-fold R² per model |
-| `viz6_ratio_performance.png` | R², RMSE, MAE bar chart for all 30 ratios |
-| `viz7_macro_trends.png` | PKR/USD, Inflation, Policy Rate, Oil — 2005–2022 |
-| `viz8_grade_dist_sector_heatmap.png` | Grade distribution pie + sector health heatmap |
+### Sector Health Comparison
+![Sector Comparison](outputs/viz2_sector_comparison.png)
+
+### Model R² Heatmap (7 models × 30 ratios)
+![Model R2 Heatmap](outputs/viz3_model_r2_heatmap.png)
+
+### Model Win Count & Average R²
+![Model Comparison](outputs/viz4_model_comparison.png)
+
+### Time-Series Cross-Validation Folds
+![CV Folds](outputs/viz5_cv_folds.png)
+
+### Per-Ratio Prediction Performance
+![Ratio Performance](outputs/viz6_ratio_performance.png)
+
+### Macroeconomic Trends (2005–2022)
+![Macro Trends](outputs/viz7_macro_trends.png)
+
+### Grade Distribution & Sector Heatmap
+![Grade Distribution](outputs/viz8_grade_dist_sector_heatmap.png)
+
+### Portal Screenshots
+
+![Login Page](portal_screenshots/login_page.png)
+![Home Dashboard](portal_screenshots/home_dashboard.png)
+![Financial Data View](portal_screenshots/financial_data_view.png)
+![Ratio Data View](portal_screenshots/ratio_data_view.png)
 
 ---
 
